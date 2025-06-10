@@ -47,6 +47,7 @@ export default function SearchPage({
           <p className="text-muted-foreground mt-2">
             {query ? 'Intenta con otras palabras clave o revisa nuestras sugerencias.' : 'Usa la barra de búsqueda para encontrar lo que necesitas.'}
           </Button>
+          </p>
         </div>
       )}
 

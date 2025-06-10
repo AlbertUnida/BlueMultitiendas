@@ -6,10 +6,10 @@ import Link from "next/link";
 export default function SellOnAzurePage() {
   return (
     <div className="space-y-12">
-      <div className="text-center py-8 bg-gradient-to-r from-primary to-blue-700 rounded-lg shadow-xl">
+      <div className="text-center py-8 bg-gradient-to-r from-primary to-blue-700 rounded-lg shadow-xl"> {/* Consider using primary and secondary theme colors for gradient */}
         <Store className="mx-auto h-20 w-20 text-white mb-4" />
-        <h1 className="text-5xl font-bold font-headline text-white">Vende en Azure Marketplace</h1>
-        <p className="text-xl text-blue-200 mt-3 max-w-2xl mx-auto">
+        <h1 className="text-5xl font-bold font-headline text-white">Vende en Blue Multitiendas</h1>
+        <p className="text-xl text-blue-200 mt-3 max-w-2xl mx-auto"> {/* Consider primary-foreground or similar for better theme consistency */}
           Llega a miles de clientes y haz crecer tu negocio con nuestra plataforma.
         </p>
         <Button size="lg" className="mt-8 bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8 py-6" asChild>

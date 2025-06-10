@@ -6,7 +6,7 @@ export default function HowToBuyPage() {
     <div className="space-y-8">
       <div className="text-center">
         <HelpCircle className="mx-auto h-16 w-16 text-primary mb-4" />
-        <h1 className="text-4xl font-bold font-headline text-primary">¿Cómo Comprar en Azure Marketplace?</h1>
+        <h1 className="text-4xl font-bold font-headline text-primary">¿Cómo Comprar en Blue Multitiendas?</h1>
         <p className="text-xl text-muted-foreground mt-2">Sigue estos sencillos pasos para realizar tu compra.</p>
       </div>
 

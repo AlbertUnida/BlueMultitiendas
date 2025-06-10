@@ -12,7 +12,7 @@ export default function LoginPage() {
         <CardHeader className="text-center">
           <KeyRound className="mx-auto h-12 w-12 text-primary mb-4" />
           <CardTitle className="text-3xl font-headline text-primary">Iniciar Sesión</CardTitle>
-          <CardDescription>Bienvenido de nuevo a Azure Marketplace.</CardDescription>
+          <CardDescription>Bienvenido de nuevo a Blue Multitiendas.</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <div className="space-y-2">

@@ -12,7 +12,7 @@ export default function RegisterPage() {
         <CardHeader className="text-center">
           <UserPlus className="mx-auto h-12 w-12 text-primary mb-4" />
           <CardTitle className="text-3xl font-headline text-primary">Crear Cuenta</CardTitle>
-          <CardDescription>Únete a Azure Marketplace y descubre un mundo de productos.</CardDescription>
+          <CardDescription>Únete a Blue Multitiendas y descubre un mundo de productos.</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <div className="space-y-2">

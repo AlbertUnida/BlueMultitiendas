@@ -47,7 +47,7 @@ export function Footer() {
               <Phone className="h-5 w-5 text-primary" />
               <span>+595 21 123 456</span>
             </div>
-            <p className="text-sm mb-4">support@azuremarketplace.com</p>
+            <p className="text-sm mb-4">info@bluemultitiendas.com</p>
             <h3 className="text-lg font-headline font-semibold mb-2 text-primary">Redes Sociales</h3>
             <div className="flex space-x-3">
               <Link href="#" aria-label="Facebook" className="text-primary hover:text-primary/80 transition-colors"><Facebook size={24} /></Link>
@@ -70,7 +70,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="text-center text-xs text-muted-foreground border-t border-border/40 pt-8">
-          &copy; {new Date().getFullYear()} Azure Marketplace. Todos los derechos reservados.
+          &copy; {new Date().getFullYear()} Blue Multitiendas. Todos los derechos reservados.
         </div>
       </div>
     </footer>

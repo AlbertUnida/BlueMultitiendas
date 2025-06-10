@@ -31,7 +31,7 @@ export default function HomePage() {
         />
         <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center p-4">
           <h1 className="text-4xl md:text-6xl font-bold font-headline text-white mb-4">
-            Tecnoweek Azure
+            Tecnoweek Blue
           </h1>
           <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl">
             Descubre ofertas increíbles en los últimos productos tecnológicos. ¡No te lo pierdas!
@@ -51,15 +51,15 @@ export default function HomePage() {
           icon={<Gift className="h-8 w-8 text-primary" />}
         />
         <InfoBlock 
-          title="Azure Marketplace Viajes" 
+          title="Blue Multitiendas Viajes" 
           description="Explora destinos increíbles."
           href="/travel"
           icon={<Plane className="h-8 w-8 text-primary" />}
         />
         <InfoBlock 
-          title="Obtén tu Tarjeta Azure" 
+          title="Obtén tu Tarjeta Blue" 
           description="Pagos fáciles y seguros."
-          href="/azure-card"
+          href="/blue-card" /* Updated href for consistency, assuming this page will exist */
           icon={<CreditCard className="h-8 w-8 text-primary" />}
         />
       </section>
@@ -100,4 +100,3 @@ function InfoBlock({ title, description, href, icon }: InfoBlockProps) {
     </Link>
   );
 }
-

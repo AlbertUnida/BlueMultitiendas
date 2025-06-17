@@ -22,7 +22,7 @@ export default function HomePage() {
       {/* Hero Banner Section */}
       <section className="relative h-[300px] md:h-[450px] rounded-lg overflow-hidden shadow-xl">
         <Image
-          src="https://placehold.co/1200x450.png"
+          src="/image/ueno.jpg"
           alt="Promotional Banner"
           layout="fill"
           objectFit="cover"
